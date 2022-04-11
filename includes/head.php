@@ -9,9 +9,8 @@
 
     <!-- Web Fonts -->
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
-
-    <!-- Stylesheet
-============================== -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
     <!-- Animate -->
     <link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css" />
     <!-- Bootstrap -->
@@ -24,4 +23,5 @@
     <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    
 </head>

@@ -13,10 +13,7 @@ if ($get_id == "3hr33d1g1t") {
 ?>
 <!doctype html>
 <html lang="en">
-
-<head>
-	<?php include("includes/head.php"); ?>
-</head>
+<?php include("includes/head.php"); ?>
 
 <body>
 	<section id="home">
