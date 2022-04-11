@@ -59,6 +59,5 @@ function getIp(){
 }
 
 $clientIP = getIp();
-}
 
 ?>
