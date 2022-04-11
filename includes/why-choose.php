@@ -5,7 +5,7 @@
             <div class="col-lg-9 col-xl-8 mx-auto text-center">
                 <h2 class="fw-600 text-white mb-3">Why I'm Different?</h2>
                 <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
-                <p class="text-4 text-white-50">We're smart, we're hard working, we're easy to talk to, and we love a challenge.</p>
+                <p class="text-4 text-white-50">Iam Innovative, Iam hard working, Iam easy to talk to, and I love a challenge.</p>
             </div>
         </div>
         <!-- Heading End -->
@@ -14,43 +14,43 @@
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="featured-box style-3">
                     <div class="featured-box-icon text-primary border border-dark rounded-circle"> <i class="fas fa-fingerprint"></i></div>
-                    <h3 class="text-white">Unique Design</h3>
-                    <p class="text-white-50 mb-0">We're smart, we're hard working, we're easy to talk to, and we love a challenge.</p>
+                    <h3 class="text-white">Custom Websites</h3>
+                    <p class="text-white-50 mb-0">A custom site is made according to the needs and mission of the clients. Every requirement of the client is met as neccessary.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="featured-box style-3">
                     <div class="featured-box-icon text-primary border border-dark rounded-circle"> <i class="fas fa-cog"></i> </div>
-                    <h3 class="text-white">Fully Customisable</h3>
-                    <p class="text-white-50 mb-0">We're smart, we're hard working, we're easy to talk to, and we love a challenge.</p>
+                    <h3 class="text-white">User-Friendly</h3>
+                    <p class="text-white-50 mb-0">For a website to become successfull, it should be user-friendly. User experience in terms of responsiveness, speed and effectiveness is the key to a good site.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="featured-box style-3">
                     <div class="featured-box-icon text-primary border border-dark rounded-circle"> <i class="fas fa-layer-group"></i> </div>
-                    <h3 class="text-white">Different Layout</h3>
-                    <p class="text-white-50 mb-0">We're smart, we're hard working, we're easy to talk to, and we love a challenge.</p>
+                    <h3 class="text-white">Highly Optimized sites</h3>
+                    <p class="text-white-50 mb-0">Optimization increases the performance of the website, thereby bringing traffic to the site. Website optimization is the base of building a strong online presence.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="featured-box style-3">
                     <div class="featured-box-icon text-primary border border-dark rounded-circle"> <i class="fas fa-mobile-alt"></i> </div>
                     <h3 class="text-white">Responsive Layout</h3>
-                    <p class="text-white-50 mb-0">We're smart, we're hard working, we're easy to talk to, and we love a challenge.</p>
+                    <p class="text-white-50 mb-0">Responsive website layout is all about reaching every kind of device users. Being accessible to each user helps in building healthy relations.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="featured-box style-3">
                     <div class="featured-box-icon text-primary border border-dark rounded-circle"> <i class="fas fa-expand-alt"></i> </div>
-                    <h3 class="text-white">Boxed & Wide Layouts</h3>
-                    <p class="text-white-50 mb-0">We're smart, we're hard working, we're easy to talk to, and we love a challenge.</p>
+                    <h3 class="text-white">Budget friendly</h3>
+                    <p class="text-white-50 mb-0">Transfer your ideas to reality at the best rate in town. Using the best technology to build your website with budget friendly approach.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="featured-box style-3">
                     <div class="featured-box-icon text-primary border border-dark rounded-circle"> <i class="far fa-life-ring"></i> </div>
-                    <h3 class="text-white">Extensive Documentation</h3>
-                    <p class="text-white-50 mb-0">We're smart, we're hard working, we're easy to talk to, and we love a challenge.</p>
+                    <h3 class="text-white">On Time Completion</h3>
+                    <p class="text-white-50 mb-0">To meet client's time period is my motto. Completion of any project within the given time frame gives you, as well as the client, the statisfaction to work on more projects together.</p>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
             <div class="col-md-6 col-lg-6 align-self-center mt-5 mt-md-0">
                 <div class="px-lg-4">
                     <h3 class="text-6 text-white mb-3">My Skills</h3>
-                    <p class="text-white-50">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                    <p class="text-white-50">With my experience as a web developer and web designer, I have polished my skill-set to match the competetive world.</p>
                     <p class="text-light fw-500 text-start mb-2">Branding & Desing <span class="float-end counter" data-from="0" data-to="95">95%</span></p>
                     <div class="progress progress-sm bg-dark-2 mb-4">
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>

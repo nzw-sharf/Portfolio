@@ -28,21 +28,21 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-4">
-                <p>I combine our passion for design focused in people with advanced development technologies. <strong class="fw-600">350+ clients</strong> have procured exceptional results and happiness while working with me.</p>
+                <p>A Full Stack Developer who has an entrepreneurial spirit, an innate drive for excellence, who dares to try, is not afraid tofail, who can think big, execute, and deliver.</p>
                 <div class="featured-box style-1">
                     <div class="featured-box-icon text-primary"> <i class="far fa-paper-plane"></i></div>
-                    <h4 class="text-white">Our Mission</h4>
-                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. lisque persius interesset his et, in quot quidam mea essent possim iriure.</p>
+                    <h4 class="text-white">My Mission</h4>
+                    <p>Participate in the design and development of the client and cloud components. Achieve project milestones as assigned. Perform hands-on coding tasks, following standards and practices. Work with project team to clearly understand requirements and provide status updates on assigned tasks</p>
                 </div>
                 <div class="featured-box style-1">
                     <div class="featured-box-icon text-primary"> <i class="far fa-eye"></i></div>
-                    <h4 class="text-white">Our Vision</h4>
-                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. lisque persius interesset his et, in quot quidam mea essent possim iriure.</p>
+                    <h4 class="text-white">My Vision</h4>
+                    <p>As a Full Stack Developer, I will apply my skills and experience to help drive business transformation for leading organizations and communities. In addition to delivering innovative solutions for clients, I will work with a highly skilled, diverse network of people who are using the latest emerging technologies to address today's biggest business challenges.</p>
                 </div>
                 <div class="featured-box style-1">
                     <div class="featured-box-icon text-primary"> <i class="far fa-thumbs-up"></i></div>
-                    <h4 class="text-white">Our Goal</h4>
-                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. lisque persius interesset his et, in quot quidam mea essent possim iriure.</p>
+                    <h4 class="text-white">My Goal</h4>
+                    <p>To work closely with business partners and other Global IT teams to deliver standard application.</p>
                 </div>
             </div>
         </div>
@@ -74,7 +74,5 @@
 <!-- Particles Animation -->
 <script src="vendor/particles/particles.min.js"></script>
 <script src="vendor/particles/particles.app.js"></script>
-<!-- Style Switcher -->
-<script src="js/switcher.min.js"></script>
 <!-- Custom Script -->
 <script src="js/theme.js"></script>

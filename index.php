@@ -57,7 +57,7 @@
             <!-- Promo Box -->
             <section class="section bg-primary text-center">
                 <div class="container">
-                    <p class="lead text-white">I am Available for Freelancer.</p>
+                    <p class="lead text-white">I am Available for Freelancing.</p>
                     <h2 class="text-10 text-white mb-4">Start a project with Me today!</h2>
                     <a href="#contact" class="btn btn-light rounded-pill shadow-none smooth-scroll mt-2">Hire Me</a>
                 </div>

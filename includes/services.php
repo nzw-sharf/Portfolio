@@ -6,7 +6,7 @@
             <div class="col-lg-9 col-xl-8 mx-auto text-center">
                 <h2 class="fw-600 text-white mb-3">Our Services</h2>
                 <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
-                <p class="text-4 text-white-50">How I can help take your next project to new heights! Thousands of clients have procured exceptional results while working with Me.</p>
+                <p class="text-4 text-white-50">I have solution to all your development and designing needs. Many clients have procured exceptional results while working with Me</p>
             </div>
         </div>
         <!-- Heading End -->

@@ -223,23 +223,23 @@ body, html {
   }
   
   .rounded-top-0 {
-    border-top-start-radius: 0px !important;
-    border-top-end-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
   }
   
   .rounded-bottom-0 {
-    border-bottom-start-radius: 0px !important;
-    border-bottom-end-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
   }
   
   .rounded-start-0 {
-    border-top-start-radius: 0px !important;
-    border-bottom-start-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
   }
   
   .rounded-end-0 {
-    border-top-end-radius: 0px !important;
-    border-bottom-end-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
   }
   
   /* Text Size */

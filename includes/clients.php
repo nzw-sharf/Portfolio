@@ -1,15 +1,15 @@
-<section id="clients" class="section bg-dark-1">
+<section id="clients" class="section bg-dark-1 pb-0">
     <div class="container">
 
         <!-- Heading -->
         <div class="row mb-5">
             <div class="col-lg-9 col-xl-8 mx-auto text-center">
-                <h2 class="fw-600 text-white mb-3">Our Clients</h2>
+                <h2 class="fw-600 text-white mb-3">My Clients</h2>
                 <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
                 <p class="text-4 text-white-50">See what my happy clients say about me. I'm proud to have my clients.</p>
             </div>
         </div>
-        <!-- Heading End -->
+        <!-- Heading End 
 
         <div class="row">
             <div class="col-lg-9 mx-auto">
@@ -33,6 +33,7 @@
                 </div>
             </div>
         </div>
+        -->
     </div>
 </section>
 <!-- Clients Logo -->
