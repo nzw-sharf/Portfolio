@@ -1,0 +1,1 @@
+<p class="text-subtitle text-muted"><?php echo $shortTitle; ?></p>
