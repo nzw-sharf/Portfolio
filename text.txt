@@ -1,3 +1,0 @@
-database: nzwportfoliodb
-user: nazwaDbUser
-paswd: [}o95t](tyF6
