@@ -41,18 +41,24 @@
     <div class="container">
         <div class="brands-grid separator-border separator-border-light">
             <div class="row align-items-center">
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo2-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo3-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo1-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo2-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo3-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo1-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo3-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo2-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo3-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo1-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo2-light.png" alt=""></a></div>
-                <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/client-logo3-light.png" alt=""></a></div>
+                <?php
+                include("includes/database.php");
+
+                $proDBQue = "select * from clients ORDER BY 1 DESC";
+                $run_proDBQue = mysqli_query($con, $proDBQue);
+                $cnt_proDBQue = mysqli_num_rows($run_proDBQue);
+                if ($cnt_proDBQue == 0) {
+                } else {
+                    while ($row_ValQuer = mysqli_fetch_array($run_proDBQue)) {
+
+                        $fch_cliID = $row_ValQuer["client_id"];
+                        $fch_compName = $row_ValQuer["client_name"];
+                        $fch_compLogo = $row_ValQuer["client_image"];
+
+                ?>
+                        <div class="col-6 col-sm-3 col-lg-2 text-center"><a href=""><img class="img-fluid" src="images/clients/<?php echo $fch_compLogo; ?>" alt="<?php echo $fch_compName; ?>" title="<?php echo $fch_compName; ?>"></a></div>
+                <?php }
+                } ?>
             </div>
         </div>
     </div>

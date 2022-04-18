@@ -55,6 +55,15 @@
             </div>
         </div>
         <div class="row">
+            <!-- Heading -->
+        <div class="row mb-5">
+            <div class="col-lg-9 col-xl-8 mx-auto text-center">
+                <h3 class="fw-600 text-white mb-3">My Skills</h3>
+                <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+                <p class="text-4 text-white-50">With my experience as a web developer and web designer, I have polished my skill-set to match the competetive world.</p>
+            </div>
+        </div>
+        <!-- Heading End 
             <div class="col-md-6 col-lg-6 text-center">
                 <div class="hero-wrap section h-100 rounded shadow-lg p-5">
                     <div class="hero-mask opacity-5 bg-dark rounded"></div>
@@ -63,29 +72,30 @@
                         <p class="text-white fw-500 text-uppercase mt-3 mb-0">Play &amp; Watch!</p>
                     </div>
                 </div>
-            </div>
+            </div>-->
+            <?php
+						include("includes/database.php");
+						
+						$sklDBQue = "select * from skills ORDER BY 1 ASC";
+						$run_sklDBQue = mysqli_query($con, $sklDBQue);
+						$cnt_sklDBQue = mysqli_num_rows($run_sklDBQue);
+						if($cnt_sklDBQue == 0){}else{
+							while($row_ValQuer = mysqli_fetch_array($run_sklDBQue)){
+								
+								$fch_skillID = $row_ValQuer["skill_id"];
+								$fch_skillName = $row_ValQuer["skill_name"];
+								$fch_skillPerc = $row_ValQuer["skill_percentage"];
+													
+					?>
             <div class="col-md-6 col-lg-6 align-self-center mt-5 mt-md-0">
                 <div class="px-lg-4">
-                    <h3 class="text-6 text-white mb-3">My Skills</h3>
-                    <p class="text-white-50">With my experience as a web developer and web designer, I have polished my skill-set to match the competetive world.</p>
-                    <p class="text-light fw-500 text-start mb-2">Branding & Desing <span class="float-end counter" data-from="0" data-to="95">95%</span></p>
+                    <p class="text-light fw-500 text-start mb-2"><?php echo $fch_skillName; ?> <span class="float-end counter" data-from="0" data-to="<?php echo $fch_skillPerc; ?>"><?php echo $fch_skillPerc; ?>%</span></p>
                     <div class="progress progress-sm bg-dark-2 mb-4">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p class="text-light fw-500 text-start mb-2">Web Development <span class="float-end">65%</span></p>
-                    <div class="progress progress-sm bg-dark-2 mb-4">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p class="text-light fw-500 text-start mb-2">Business Analysis <span class="float-end">80%</span></p>
-                    <div class="progress progress-sm bg-dark-2 mb-4">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p class="text-light fw-500 text-start">Digital Marketing <span class="float-end">75%</span></p>
-                    <div class="progress progress-sm bg-dark-2 mb-4">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: <?php echo $fch_skillPerc; ?>%" aria-valuenow="<?php echo $fch_skillPerc; ?>" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
+            <?php }} ?>
         </div>
     </div>
 </section>

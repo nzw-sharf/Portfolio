@@ -1,3 +1,10 @@
+<?php
+session_start();
+include("includes/database.php");
+include("functions/functions.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include("includes/head.php"); ?>

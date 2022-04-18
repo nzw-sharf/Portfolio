@@ -167,7 +167,7 @@ body, html {
   }
   
   a:hover, a:active {
-    color: #bf2672;
+    color: #aa1111;
     text-decoration: none;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -3455,7 +3455,7 @@ body, html {
   }
   
   .btn-link:hover {
-    color: #bf2672 !important;
+    color: #aa1111 !important;
   }
   
   .text-secondary {
@@ -3471,7 +3471,7 @@ body, html {
   }
   
   a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
-    background-color: #bf2672 !important;
+    background-color: #aa1111 !important;
   }
   
   .border-primary {
@@ -3488,18 +3488,18 @@ body, html {
   }
   
   .btn-primary:hover {
-    background-color: #bf2672;
-    border-color: #bf2672;
+    background-color: #aa1111;
+    border-color: #aa1111;
   }
   
   .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #bf2672;
-    border-color: #bf2672;
+    background-color: #aa1111;
+    border-color: #aa1111;
   }
   
   .btn-primary.focus, .btn-primary:focus {
-    background-color: #bf2672;
-    border-color: #bf2672;
+    background-color: #aa1111;
+    border-color: #aa1111;
   }
   
   .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -3558,7 +3558,7 @@ body, html {
   }
   
   .page-link:hover {
-    color: #bf2672;
+    color: #aa1111;
   }
   
   /* Pagination */
